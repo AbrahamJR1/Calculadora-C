@@ -39,7 +39,7 @@ int main()
     printf("\n");
     }
 
-    if ( n3 == 2) {
+    else if ( n3 == 2) {
     printf("Dame el primer dijito: ");
     scanf("%f" ,&n1);
     printf("Dame el segundo dijito: ");
@@ -52,7 +52,7 @@ int main()
     }
 
 
-    if ( n3 == 3) {
+    else if ( n3 == 3) {
     printf("Dame el primer dijito: ");
     scanf("%f" ,&n1);
     printf("Dame el segundo dijito: ");
@@ -66,7 +66,7 @@ int main()
     }
 
 
-    if ( n3 == 4) {
+    else if ( n3 == 4) {
     printf("Dame el primer dijito: ");
     scanf("%f" ,&n1);
     printf("Dame el segundo dijito: ");
@@ -78,7 +78,7 @@ int main()
     printf("\n");
     }
 
-    if (n3 == 5){
+    else if (n3 == 5){
         printf ("Dame los pesos");
         scanf("%f",&mex);
 
@@ -87,10 +87,15 @@ int main()
         printf("\n");
     }
 
-    if (n3 == 0){
+    else if (n3 == 0){
         printf ("Adios");
         printf("\n");
     }
+    
+    else{
+           printf ("Adios");
+           printf("\n");
+        }
 
     }
 
